@@ -27,7 +27,7 @@ The https://github.com/confluentinc/cp-helm-charts[Confluent Platform Helm Chart
 [source,bash]
 .Installing helm chart
 ----
-helm repo add confluentinc https://confluentinc.github.io/cp-helm-charts/   #<1>
+helm repo add confluentinc https://honhai-tw.github.io/cp-helm-charts/   #<1>
 helm repo update    #<2>
 helm install confluentinc/cp-helm-charts --name my-confluent --version 0.5.0    #<3>
 ----
